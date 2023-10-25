@@ -27,3 +27,6 @@ Suivez ces étapes d'installation :
    g++ keylogger.cpp -o keylogger.exe
 
 L'utilisateur aura plus qu'a exécuter le fichier keylogger.exe ( celui qui se situe à la racine du projet ).
+
+- Utiliser ce projet à des fins éducatives.
+- Je ne suis pas responsable d'un mauvais usage !
