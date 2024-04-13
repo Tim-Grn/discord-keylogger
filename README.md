@@ -9,7 +9,7 @@ Discord keylogger est un keylogger (enregistreur de frappe de clavier) qui envoi
 
 ## Présentation
 
-⚠️ Discord keylogger est seulement fonctionnel sur Windows !
+⚠️ Discord keylogger est seulement fonctionnel sur Windows !⚠️
 
 Discord keylogger vous permet de :
 
@@ -28,8 +28,9 @@ Suivez ces étapes d'installation :
 4. Compilez le fichier keylogger.cpp
    ```bash
    g++ keylogger.cpp -o keylogger.exe
+5. Compilez le fichier start.bat vers bat.exe (avec [Batch Compiler](https://sourceforge.net/projects/batch-compiler/) par exemple)
 
-L'utilisateur aura plus qu'a exécuter le fichier keylogger.exe ( celui qui se situe à la racine du projet ).
+L'utilisateur aura plus qu'a exécuter le fichier start.exe, celui ci exécutera alors keylogger.exe (avant keylogger.cpp).
 
 - Utiliser ce projet à des fins éducatives.
 - Je ne suis pas responsable d'un mauvais usage !
