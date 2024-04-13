@@ -2,12 +2,14 @@
 
 Bienvenue dans le projet Discord keylogger ! 
 
-Discord keylogger est un keylogger ( enregistreur de frappe de clavier ) qui envoie tout les deux heures un rapport des touches frappé via un webhook discord.
+Discord keylogger est un keylogger (enregistreur de frappe de clavier) qui envoie tout les deux heures un rapport des touches frappé via un webhook discord.
 
 
 ![Discord keylogs example](docs/7797.JPG)
 
 ## Présentation
+
+⚠️ Discord keylogger est seulement fonctionnel sur Windows !
 
 Discord keylogger vous permet de :
 
@@ -22,7 +24,8 @@ Suivez ces étapes d'installation :
 2. Clonez ce référentiel sur votre ordinateur :
    ```bash
    git clone https://github.com/TimotheeGrn/discord-keylogger.git
-3. Compilez le fichier keylogger.cpp
+3. Editez le fichier **/docs/start.bat**, et remplacez ```%discordwebhookurl%``` par l'url de votre webhook discord.
+4. Compilez le fichier keylogger.cpp
    ```bash
    g++ keylogger.cpp -o keylogger.exe
 
